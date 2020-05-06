@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div id="calculadora">
+
+        <div>
+            <div id="divtela">
+                <input type="text" id="tela" name="tela" readonly>
+                <input type="text" id="telaFake" hidden>
+                <input type="text" id="telaOperador" hidden>
+            </div>
+            <div id="line1">
+                <button id="btn1" onclick="Fbtn1()">1</button>
+                <button id="btn2" onclick="Fbtn2()">2</button>
+                <button id="btn3" onclick="Fbtn3()">3</button>
+            </div>
+            <div id="line2">
+                <button id="bnt4" onclick="Fbtn4()">4</button>
+                <button id="btn5" onclick="Fbtn5()">5</button>
+                <button id="btn6" onclick="Fbtn6()">6</button>
+            </div>
+            <div id="line3">
+                <button id="btn7" onclick="Fbtn7()">7</button>
+                <button id="btn8" onclick="Fbtn8()">8</button>
+                <button id="btn9" onclick="Fbtn9()">9</button>
+            </div>
+            <div id="line4">
+                <button id="btnMais" onclick="somar()">+</button>
+                <button id="btn0" onclick="Fbtn0()">0</button>
+                <button id="btnMenos" onclick="subtrair()">-</button>
+            </div>
+            <div id="line5">
+                <button id="btnMult" onclick="multiplicar()">*</button>
+                <button id="btnDiv" onclick="dividir()">/</button>
+                <button id="btnIgual" onclick="igual()">=</button>
+            </div>
+            <div id="line6">
+                <button id="CE" onclick="ce()">CE</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
